@@ -1,5 +1,32 @@
 <html>
+<style> 
+div {
+  width: 100px;
+  height: 50px;
+  background-color: red;
+  font-weight: bold;
+  position: relative;
+  animation: mymove 5s;
+  animation-fill-mode: forwards;
+}
+
+#div1 {animation-timing-function: linear;}
+#div2 {animation-timing-function: ease;}
+#div3 {animation-timing-function: ease-in;}
+#div4 {animation-timing-function: ease-out;}
+#div5 {animation-timing-function: ease-in-out;}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 400px;}
+}
+</style>
 <body>
 <p>H E L L O&nbsp;&nbsp;&nbsp;&nbsp;H O R I Z O N</p>
+
+<div id="div5">
+<img src = "60d9b76fce033_5c7bf2dd1a3c0f407ff9ea142561da28.jpg" />
+</div>
+
 </body>
 </html>
